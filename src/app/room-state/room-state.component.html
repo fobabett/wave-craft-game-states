@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    <li *ngFor='let room of rooms'>
+      <span>{{room}}</span>
+      <button (click)='join()' type="button">Join</button>
+    </li>
+  </ul>
+  <button (click)='back()' type='button'>Back</button>
+</div>
